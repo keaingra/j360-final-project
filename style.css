@@ -1,0 +1,77 @@
+h1 {
+  color: white;
+  font-family: Georgia;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  color: white
+  font-family: Times;
+  text-align: center;
+  font-size: 24px;
+}
+
+body {
+  background-color: #CF266D;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+
+@media (min-width: 320px) {
+  body {
+    background-color: white;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 16px;
+  }
+  h1 {
+    font-family: Georgia;
+    color: white;
+    font-size: 32px;
+  }
+  h2 {
+    font-family: Times;
+    color:white;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #CF266D;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 14px;
+  }
+  h1 {
+    font-family: Georgia;
+    color: white;
+    font-size: 30px;
+  }
+  h2 {
+    font-family: Times;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #CF266D;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 20px;
+  }
+  h1 {
+    font-family: Georgia;
+    color: white;
+    font-size: 36px;
+  }
+  h2 {
+    font-family: Times;
+    color: white;
+    font-size: 22px;
+  }
+}
